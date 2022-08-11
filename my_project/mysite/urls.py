@@ -19,6 +19,6 @@ from tarjimon import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/',views.index),
-    path('hello/app/', views.main)
+    path('',views.index),
+    path('app/', views.main)
 ]
